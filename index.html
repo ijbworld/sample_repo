@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>MyBranch JS</title>
-  </head>
-  <body>
-    <h>Java script </h><br>
-    <button type="button" name="button" onclick="document.getElementById('demo').innerHTML=Date()" >date and time</button>
-    <p id="demo"></p>
-    <p id="id1">Java Script </p>
-    <button type="input" onclick="document.getElementById('id1').innerHTML='Hellow World!!!!'">Button </button><br><br>
-    <button type="buttom" onclick="document.getElementById('img').src='icons/cross.png'">cross</button>
-    <img id="img" src="icons/circle.png" width="50px">
-    <button type="button", onclick="document.getElementById('img').src='icons/circle.png'">circle</button><br><br>
-    <p style="color:red; font-size:50px; " id="p">Javascript</p>
-    <button type="button" onclick="document.getElementById('p').style.color='blue'">Change color</button>
-    <button type="button" onclick="document.getElementById('p').style.fontSize='25px'">Change font</button>
-    <button type="button"onclick="document.getElementById('p').style.display='none'">Hide!!</button>
-    <button type="button"onclick="document.getElementById('p').style.display='block'">Show!!</button>
-    <!--all above can be donasdase using functions asdsadasdasassaddsaasdadaasdasdasdasdasdasbellow-->
-    <script defer>
-      function button(){
-        document.getElementById('function').innerHTML='Hello world!!!'
-      }
-    </script>
-    <p id="function">Java Script</p>
-    <button type="button"onclick="button()">Function</button>
-    <!-- from file -->
-    <script src="button.js"></script>
-    <p id="fbtn">HTML Syntax</p>
-    <button type="button"onclick="flbutton()">File</button>
-    <!-- Java Script output-->
-    <script>
-      function innerhtml(){document.getElementById('idelement').innerHTML="5"+10+30;}
-      function docwrite(){document.write("javascript");}
-      function winalert(){window.alert("You are using Java Script");}
-      function clog(){console.log("this is the log methord aka function")}
-      function pdfprint(){window.print("Hello World")}
-    </script>
-    <p id="idelement">HTML Syntax</p>
-    <button type="button"onclick="innerhtml()">Java Script Output</button>
-    <button type="button"onclick="docwrite()">Document Write</button>
-    <button type="button"onclick="winalert()">Alert Window</button>
-    <button type="button"onclick="clog()">Log</button>
-    <button type="button"onclick="pdfprint()">PDF</button>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>MyBranch JS</title>
+</head>
+
+<body>
+  <h>Java script </h><br>
+  <button type="button" name="button" onclick="document.getElementById('demo').innerHTML=Date()">date and time</button>
+  <p id="demo"></p>
+  <p id="id1">Java Script </p>
+  <button type="input" onclick="document.getElementById('id1').innerHTML='Hellow World!!!!'">Button </button><br><br>
+  <button type="buttom" onclick="document.getElementById('img').src='icons/cross.png'">cross</button>
+  <img id="img" src="icons/circle.png" width="50px">
+  <button type="button" , onclick="document.getElementById('img').src='icons/circle.png'">circle</button><br><br>
+  <p style="color:red; font-size:50px; " id="p">Javascript</p>
+  <button type="button" onclick="document.getElementById('p').style.color='blue'">Change color</button>
+  <button type="button" onclick="document.getElementById('p').style.fontSize='25px'">Change font</button>
+  <button type="button" onclick="document.getElementById('p').style.display='none'">Hide!!</button>
+  <button type="button" onclick="document.getElementById('p').style.display='block'">Show!!</button>
+  <!--all above can be donasdase using functions asdsadasdasassaddsaasdadaasdasdasdasdasdasbellow-->
+  <script defer>
+    function button() {
+      document.getElementById('function').innerHTML = 'Hello world!!!'
+    }
+  </script>
+  <p id="function">Java Script</p>
+  <button type="button" onclick="button()">Function</button>
+  <!-- from file -->
+  <script src="button.js"></script>
+  <p id="fbtn">HTML Syntax</p>
+  <button type="button" onclick="flbutton()">File</button>
+  <!-- Java Script output-->
+  <script>
+    function innerhtml() { document.getElementById('idelement').innerHTML = "5" + 10 + 30; }
+    function docwrite() { document.write("javascript"); }
+    function winalert() { window.alert("You are using Java Script"); }
+    function clog() { console.log("this is the log methord aka function") }
+    function pdfprint() { window.print("Hello World") }
+  </script>
+  <p id="idelement">HTML Syntax</p>
+  <button type="button" onclick="innerhtml()">Java Script Output</button>
+  <button type="button" onclick="docwrite()">Document Write</button>
+  <button type="button" onclick="winalert()">Alert Window</button>
+  <button type="button" onclick="clog()">Log</button>
+  <button type="button" onclick="pdfprint()">PDF</button>
+</body>
+
 </html>
