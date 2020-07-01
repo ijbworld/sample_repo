@@ -1,3 +1,3 @@
 function flbutton(){
-  document.getElementById('fbtn').innerHTML='Java Script'
+  			document.getElementById('fbtn').innerHTML='Java Script'
 }
